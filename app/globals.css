@@ -6,21 +6,330 @@
 }
 
 @theme inline {
+  /* Colors — use as className="text-primary", "bg-charcoal", etc. */
+  --color-primary: #1a1a2e;
+  --color-primary-light: #16213e;
+  --color-accent: #e94560;
+  --color-accent-dark: #c73652;
+  --color-brand-red: #d40000;
+  --color-brand-red-soft: #f8d4d4;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-off-white: #f8f8f6;
+  --color-light-gray: #e8e8e4;
+  --color-mid-gray: #9a9a94;
+  --color-dark-gray: #4a4a44;
+  --color-charcoal: #2a2a24;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  /* Fonts */
+  --font-heading: "Poppins", sans-serif;
+  --font-sans: "Poppins", sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* --- Typography scale --- */
+
+  /* H1 — large display heading */
+  --font-size-h1: 80px;
+  --line-height-h1: 1.1;
+  --font-family-h1: var(--font-heading);
+  --font-weight-h1: 700;
+
+  /* H2 */
+  --font-size-h2: 60px;
+  --line-height-h2: 1.1;
+  --font-family-h2: var(--font-heading);
+  --font-weight-h2: 700;
+
+  /* H3 */
+  --font-size-h3: 40px;
+  --line-height-h3: 1.2;
+  --font-family-h3: var(--font-heading);
+  --font-weight-h3: 700;
+
+  /* H4 — section heading */
+  --font-size-h4: 28px;
+  --line-height-h4: 1.2;
+  --font-family-h4: var(--font-sans);
+  --font-weight-h4: 700;
+
+  /* Display — large eyebrow / label (Poppins) */
+  --font-size-display: 14px;
+  --line-height-display: 1;
+  --font-family-display: var(--font-heading);
+  --font-weight-display: 500;
+
+  /* Nav — links, buttons, small UI labels */
+  --font-size-nav: 14px;
+  --line-height-nav: 1.2;
+  --font-family-nav: var(--font-sans);
+  --font-weight-nav: 500;
+
+  /* Body 1 — large body copy */
+  --font-size-body1: 20px;
+  --line-height-body1: 1.6;
+  --font-family-body1: var(--font-sans);
+  --font-weight-body1: 300;
+
+  /* Body 2 — standard body copy */
+  --font-size-body2: 16px;
+  --line-height-body2: 1.6;
+  --font-family-body2: var(--font-sans);
+  --font-weight-body2: 300;
+
+  /* Body 3 — small / caption */
+  --font-size-body3: 13px;
+  --line-height-body3: 1.5;
+  --font-family-body3: var(--font-sans);
+  --font-weight-body3: 300;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ---- Local font faces ---- */
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(/fonts/BebasNeue-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Thin.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ThinItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ExtraLight.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ExtraLightItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Light.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-LightItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Italic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-MediumItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-SemiBoldItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Bold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-BoldItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ExtraBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-ExtraBoldItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Black.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-BlackItalic.ttf) format("truetype");
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf) format("truetype");
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---- Typography utility classes ---- */
+/* Use as className="text-h1", "text-body2", etc. */
+
+.text-h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+  font-family: var(--font-family-h1);
+  font-weight: var(--font-weight-h1);
+}
+
+.text-h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+  font-family: var(--font-family-h2);
+  font-weight: var(--font-weight-h2);
+}
+
+.text-h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+  font-family: var(--font-family-h3);
+  font-weight: var(--font-weight-h3);
+}
+
+.text-h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+  font-family: var(--font-family-h4);
+  font-weight: var(--font-weight-h4);
+}
+
+.text-display {
+  font-size: var(--font-size-display);
+  line-height: var(--line-height-display);
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-display);
+}
+
+.text-nav {
+  font-size: var(--font-size-nav);
+  line-height: var(--line-height-nav);
+  font-family: var(--font-family-nav);
+  font-weight: var(--font-weight-nav);
+}
+
+.text-body1 {
+  font-size: var(--font-size-body1);
+  line-height: var(--line-height-body1);
+  font-family: var(--font-family-body1);
+  font-weight: var(--font-weight-body1);
+}
+
+.text-body2 {
+  font-size: var(--font-size-body2);
+  line-height: var(--line-height-body2);
+  font-family: var(--font-family-body2);
+  font-weight: var(--font-weight-body2);
+}
+
+.text-body3 {
+  font-size: var(--font-size-body3);
+  line-height: var(--line-height-body3);
+  font-family: var(--font-family-body3);
+  font-weight: var(--font-weight-body3);
+}
+
+/* ---- Base styles ---- */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }

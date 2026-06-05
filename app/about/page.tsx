@@ -9,7 +9,6 @@ const executiveOfficers = [
 ];
 
 const boardOfDirectors = [
-  { name: "Jane Awkard Marks", role: "Honorary Chairperson, Experience Asia Festival" },
   { name: "Nani Looney, Viet Vu, Sunny Long", role: "Fundraising" },
   { name: "Earl and Portia Campos", role: "Education and Cultural Affairs" },
   { name: "Samuel Chang, Heewon Seo", role: "Technology" },

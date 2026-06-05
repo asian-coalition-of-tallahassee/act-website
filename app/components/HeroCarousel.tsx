@@ -71,7 +71,7 @@ export default function HeroCarousel() {
             <span className="block">Festival</span>
           </h1>
           <p className="mt-6 text-nav uppercase tracking-[0.22em] text-white/90">
-            September 22-23, 2027, Tallahassee, FL
+            September 26, 2026, Tallahassee, FL
           </p>
         </div>
       </div>

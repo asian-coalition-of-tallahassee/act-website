@@ -10,10 +10,6 @@ const sponsors = [
     src: "/assets/sponsors/leoncounty.png",
   },
   {
-    name: "Florida Division of Arts and Culture",
-    src: "/assets/sponsors/arts-and-culture.png",
-  },
-  {
     name: "Visit Tallahassee",
     src: "/assets/sponsors/visit-tallahassee.png",
   },

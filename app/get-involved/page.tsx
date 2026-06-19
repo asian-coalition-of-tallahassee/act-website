@@ -3,12 +3,12 @@ import Link from "next/link";
 const options = [
   {
     label: "Volunteer",
-    description: "Help make Experience Asia happen — applications open July 2026.",
+    description: "Help make Experience Asia happen — complete the liability waiver to get started.",
     href: "/get-involved/volunteer",
   },
   {
     label: "Vendors & Performers",
-    description: "Share your craft or talent at our festival — applications open July 2026.",
+    description: "Apply as a vendor or performer for Experience Asia 2026.",
     href: "/get-involved/vendors-performers",
   },
   {

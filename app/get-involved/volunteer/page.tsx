@@ -1,3 +1,6 @@
+const LIABILITY_WAIVER =
+  "https://drive.google.com/file/d/1GaUrkeQPVs8UlFl01D-Bmr7r8PPGhVJF/view?usp=sharing";
+
 export default function VolunteerPage() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-16 md:py-24">
@@ -12,8 +15,20 @@ export default function VolunteerPage() {
           managing operations to assisting performers and supporting vendors — your time
           and energy make Experience Asia possible. Each year our volunteers serve in a
           wide range of roles including event setup, guest services, vendor coordination,
-          and stage support. Volunteer applications for Experience Asia 2026 will open in
-          July, 2026.
+          and stage support.
+        </p>
+
+        <p className="mt-6 text-base leading-relaxed text-black">
+          All volunteers must complete the{" "}
+          <a
+            href={LIABILITY_WAIVER}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold underline"
+          >
+            Experience Asia 2026 Liability Waiver (PDF)
+          </a>
+          .
         </p>
       </div>
     </main>

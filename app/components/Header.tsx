@@ -22,8 +22,9 @@ const navLinks: NavItem[] = [
     label: "Events",
     href: "/events",
     children: [
+      { label: "Experience Asia 2026", href: "/events/2026" },
       { label: "Upcoming Events", href: "/events#upcoming" },
-      { label: "Experience Asia 2022", href: "/events/2022" },
+      { label: "Past Events", href: "/events/2022" },
     ],
   },
   {

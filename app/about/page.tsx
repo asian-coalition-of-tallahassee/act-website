@@ -6,6 +6,7 @@ const executiveOfficers = [
   { name: "Angelina Wai", role: "Treasurer" },
   { name: "Mitchell Herring", role: "General Counsel" },
   { name: "T.S. Wu", role: "Auditor" },
+  { name: "Jane Marks", role: "Honorary Chairperson" },
 ];
 
 const boardOfDirectors = [
@@ -21,7 +22,6 @@ const memberAssociations = [
   "Japanese Community of Tallahassee",
   "Vietnamese Community of Tallahassee",
   "Taiwanese Association of Tallahassee",
-  "TSC Student Life",
   "TSC Dance Company",
   "AASU, Florida State University",
   "FSA, Florida State University",
@@ -29,9 +29,9 @@ const memberAssociations = [
 
 const otherRoles = [
   { names: "Kim Vega, Master Cap Cap Aperente, Scott Searce", role: "Media" },
-  { names: "Dolly Earl, Kim Vega, Weng Entea", role: "Videographers & Photographers" },
-  { names: "Mann, Dahee Seo", role: "Volunteer Coordinators" },
-  { names: "Heesu Seo, Weng Entea, Abbie Eginn, Khaliah Haynes", role: "Volunteer Lead Staff" },
+  { names: "Dolly Earl, Kim Vega, Rowena Entea", role: "Videographers & Photographers" },
+  { names: "Amy Mann", role: "Volunteer Coordinator" },
+  { names: "Heesu Seo, Weng Entea, Abbie Egina, Khaliah Haynes", role: "Volunteer Lead Staff" },
 ];
 
 export default function AboutPage() {

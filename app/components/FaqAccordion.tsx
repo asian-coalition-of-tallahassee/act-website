@@ -14,12 +14,12 @@ const faqCategories = [
       {
         question: "When is Experience Asia 2026?",
         answer:
-          "Experience Asia 2026 takes place in spring 2026. Check our Events page for the official schedule, program updates, and ticket information as they are announced.",
+          "Experience Asia 2026 is on Saturday, September 26, 2026, from 10:00 AM to 6:00 PM. Our flagship fall festival returns each September—see our Experience Asia 2026 event page for program updates as the date approaches.",
       },
       {
         question: "Do I need tickets to attend?",
         answer:
-          "Admission details vary by event. Many ACT programs are free and open to the public. For ticketed experiences, purchase links will be posted on the Events page and shared through our newsletter.",
+          "No ticket is required. Experience Asia 2026 is free and open to the public. Just bring your family and friends to Tom Brown Park on September 26th.",
       },
       {
         question: "Is the festival family-friendly?",
@@ -39,7 +39,7 @@ const faqCategories = [
       {
         question: "Can I bring outside food or drinks?",
         answer:
-          "Outside food and beverage policies depend on the venue. We will publish any restrictions on the Events page before festival weekend.",
+          "Outside food and beverage policies follow Tom Brown Park guidelines. We will post any festival-specific restrictions on our Experience Asia 2026 event page before September 26th.",
       },
       {
         question: "Are there options for dietary restrictions?",
@@ -54,12 +54,12 @@ const faqCategories = [
       {
         question: "Where is the festival held?",
         answer:
-          "The venue for Experience Asia 2026 will be announced on our Events page. Past ACT programs have been held at community parks and cultural centers throughout the Tallahassee area.",
+          "Experience Asia 2026 will be held at Tom Brown Park in Tallahassee, FL. Visit our Experience Asia 2026 event page for directions and on-site details.",
       },
       {
         question: "Is parking available?",
         answer:
-          "Parking information, including accessible parking, will be shared before the event. We recommend arriving early on peak days.",
+          "Yes. Tom Brown Park has on-site parking, including accessible spaces. We recommend arriving early, as lots can fill during peak festival hours.",
       },
       {
         question: "What should I bring?",

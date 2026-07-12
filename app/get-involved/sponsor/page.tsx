@@ -31,8 +31,8 @@ export default function SponsorPage() {
 
         <p className="mt-4 text-base leading-relaxed text-black">
           Questions? Reach out to us at{" "}
-          <a href="mailto:info@actallahassee.org" className="underline">
-            info@actallahassee.org
+          <a href="mailto:asiancoalitiontlh@gmail.com" className="underline">
+            asiancoalitiontlh@gmail.com
           </a>
           .
         </p>

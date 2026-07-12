@@ -89,7 +89,7 @@ const faqCategories = [
       {
         question: "How do I contact ACT?",
         answer:
-          "Reach us through the contact form on our About page or connect with us on social media. We aim to respond within a few business days.",
+          "Reach us by emailing us at asiancoalitiontlh@gmail.com or connect with us on social media. We aim to respond within a few business days.",
       },
     ],
   },

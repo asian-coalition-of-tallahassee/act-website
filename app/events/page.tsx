@@ -10,7 +10,9 @@ export default function EventsPage() {
         <p className="mt-4 text-base leading-relaxed text-black">
           We are currently planning our next round of events and programming. Follow
           us on social media and check back here for announcements on Experience Asia
-          2026 and other community events throughout the year.
+          2026 and other community events throughout the year.<br></br><br></br>
+
+          Every year, the Asian Coalition of Tallahassee hosts a Lunar New Year celebration as well as Experience Asia. We're excited to share information when it is available!
         </p>
       </div>
     </main>

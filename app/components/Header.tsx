@@ -25,6 +25,7 @@ const navLinks: NavItem[] = [
       { label: "Experience Asia 2026", href: "/events/2026-EA" },
       { label: "Upcoming Events", href: "/events#upcoming" },
       { label: "Past Events", href: "/events/2022" },
+      { label: "Vendor/Performer Forms", href: "/events/Forms" },
     ],
   },
   {
@@ -32,7 +33,7 @@ const navLinks: NavItem[] = [
     href: "/get-involved",
     children: [
       { label: "Volunteer", href: "/get-involved/volunteer" },
-      { label: "Vendors & Performers", href: "/get-involved/vendors-performers" },
+      { label: "Vendors & Performers", href: "/events/Forms" },
       { label: "Sponsor Us", href: "/get-involved/sponsor" },
     ],
   },
@@ -41,7 +42,7 @@ const navLinks: NavItem[] = [
     href: "/about",
     children: [
       { label: "About Us", href: "/about" },
-      { label: "Impact Report", href: "/about/impact-report" },
+      // { label: "Impact Report", href: "/about/impact-report" },
     ],
   },
   { label: "FAQ", href: "/faq" },

@@ -31,7 +31,7 @@ const otherRoles = [
   { names: "Kim Vega, Master Cap Cap Aperente, Scott Searce", role: "Media" },
   { names: "Dolly Earl, Kim Vega, Rowena Entea", role: "Videographers & Photographers" },
   { names: "Amy Mann", role: "Volunteer Coordinator" },
-  { names: "Heesu Seo, Weng Entea, Abbie Egina, Khaliah Haynes", role: "Volunteer Lead Staff" },
+  { names: "Heesu Seo, Weng Entea, Abbie Egina, Khaliah Haynes, Shawn Sun, Lucy Luu", role: "Volunteer Lead Staff" },
 ];
 
 export default function AboutPage() {

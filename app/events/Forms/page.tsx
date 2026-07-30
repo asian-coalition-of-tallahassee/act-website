@@ -2,7 +2,7 @@ const FORMS = {
   vendor:
     "https://drive.google.com/file/d/1KyrxuP1qnrz6oevO01yvizP_4pUvI4ZZ/view?usp=sharing",
   performer:
-    "https://drive.google.com/file/d/13WJlo2ZDAv_tfdkP3ASHk1oeCNyNP7t_/view?usp=sharing",
+    "https://drive.google.com/file/d/1bL4Ve5wwzZgmeOadf96sdI3zp0XQPY2t/view?usp=sharing",
   liabilityWaiver:
     "https://drive.google.com/file/d/1GaUrkeQPVs8UlFl01D-Bmr7r8PPGhVJF/view?usp=sharing",
 } as const;

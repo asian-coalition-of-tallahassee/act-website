@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ExperienceAsia2026Page() {
   return (
     <main>
@@ -6,6 +8,17 @@ export default function ExperienceAsia2026Page() {
         <p className="mt-4 font-bold text-base text-black">
           Save the date for the Asian Coalition of Tallahassee's annual Experience Asia Festival!<br></br> Join us on Saturday, September 26th from 10 am to 6 pm at Tom Brown Park!
         </p>
+      </div>
+      <div className="bg-[#FFBFB3] mx-auto max-w-3xl px-6 py-6 md:py-6">
+        <div className="mt-8 overflow-hidden max-w-2xl max-h-3xl mx-auto shadow-lg rounded">
+          <Image
+            src="/assets/images/Event Flyers/EA 26 Flyer.png"
+            alt="Experience Asia 2026 Flyer"
+            width={800}
+            height={600}
+            className="object-cover w-full h-auto shadow-inner"
+          />
+        </div>
       </div>
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
         <div className="flex-1">

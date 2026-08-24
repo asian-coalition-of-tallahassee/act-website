@@ -1,5 +1,5 @@
-const LIABILITY_WAIVER =
-  "https://drive.google.com/file/d/1GaUrkeQPVs8UlFl01D-Bmr7r8PPGhVJF/view?usp=sharing";
+const VOLUNTEER_PACKET =
+  "https://drive.google.com/file/d/1KKGAPYTQruiKMcIWfk5WGVLFAfjoyKHm/view?usp=sharing";
 
 export default function VolunteerPage() {
   return (
@@ -21,12 +21,12 @@ export default function VolunteerPage() {
         <p className="mt-6 text-base leading-relaxed text-black">
           All volunteers must complete the{" "}
           <a
-            href={LIABILITY_WAIVER}
+            href={VOLUNTEER_PACKET}
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold underline"
           >
-            Experience Asia 2026 Liability Waiver (PDF)
+            Experience Asia 2026 Volunteer Packet (PDF)
           </a>
           .
         </p>

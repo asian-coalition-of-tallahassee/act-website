@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const FORMS = {
   vendor:
     "https://drive.google.com/file/d/1KyrxuP1qnrz6oevO01yvizP_4pUvI4ZZ/view?usp=sharing",
@@ -57,6 +59,15 @@ export default function VendorsPerformersPage() {
             </li>
           </ul>
         </div>
+              <div className="mt-8 overflow-hidden max-w-2xl max-h-3xl mx-auto shadow-lg rounded">
+                <Image
+                  src="/assets/images/EA 2026 Performer Instructions.jpg"
+                  alt="Experience Asia 2026 Performer Instructions"
+                  width={800}
+                  height={600}
+                  className="object-cover w-full h-auto shadow-inner"
+                />
+              </div>
       </div>
     </main>
   );
